@@ -1,0 +1,168 @@
+
+/* Core CSS */
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Navigation CSS */
+header nav {
+    background-color: #f0f0f0;
+}
+header nav .nav-image {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    list-style: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+footer div .footer-copy,
+footer div .footer-contact,
+footer div .footer-links,
+footer div .footer-social {
+    margin: 10px;
+}
+footer div span {
+    text-align: center;
+    font-weight: bold;
+}
+footer div p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+footer div a i {
+    font-size: 1.5em;
+    margin:auto;
+}
+
+/* Hero Image */
+main .hero img{
+    width: 100vw;
+    height: auto;
+}
+.hero {
+    width:100vw;
+    overflow: hidden;
+    position: relative;
+}
+.hero-slider {
+    display: none;
+}
+.hero-one,.hero-two,.hero-three {
+    background-image: url('https://placekitten.com/g/1200/400');
+    background-size:cover;
+    height:400px;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.hero-text h1 {
+    font-size: 3em;
+}
+.hero-text p {
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    font-size: 20px;
+}
+.hero-controls {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    top:50%;
+    transform: translateY(-50%);
+}
+.hero-controls a {
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+}
+.control-left {
+    float:left;
+    margin-left:3em;
+}
+.control-right {
+    float:right;
+    margin-right:3em;
+}
+
+
+/* Card CSS */
+.hover-gallery {
+    padding: 1em;
+}
+.hover-gallery .row-one, .hover-gallery .row-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment for larger screens */
+    gap: 10px;
+}
+
+/* Adjust the number of cards per row for larger screens */
+@media (min-width: 768px) {
+    .hover-gallery .card {
+        flex-basis: calc(25% - 20px); /* Calculate flex-basis for 4 cards in a row */
+        max-width: calc(25% - 20px); /* Adjust max-width to match flex-basis */
+    }
+}
+.hover-gallery .card img {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    transition: filter 0.3s;
+}
+.hover-gallery .card img:hover {
+    filter: brightness(0.35);
+}
+.hover-gallery h2, .hover-gallery p {
+    padding-left: 15px;
+    padding-bottom: 1.5vh;
+    margin: 0;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.hover-gallery h2 {
+    padding-bottom: 1vh;
+}
+.hover-gallery .card p {
+    max-width: 275px;
+}
