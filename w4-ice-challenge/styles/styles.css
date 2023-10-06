@@ -1,0 +1,38 @@
+body {
+    background-color: #FCA6C9;
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+.top p, .top h4, .top h1 {
+    color: #fff;
+}
+.top h1:hover {
+    color: #000;
+}
+.top p {
+    font-size: 0.7em;
+}
+ol {
+    margin: 5% 15%;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: bold;
+}
+.mid img {
+    width: 150px;
+    height: auto;
+    margin-top: 1em;
+}
+.bot h2 {
+    color: #fff;
+    margin: 5% 15%
+}
+.bot p {
+    font-size: 0.7em;
+}
