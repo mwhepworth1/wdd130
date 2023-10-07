@@ -72,3 +72,11 @@ footer a:hover {
 .icon {
     width: 80px;
 }
+#hero-box img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo {
+    width: 80px;
+}
