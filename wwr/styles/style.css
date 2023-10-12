@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Quicksand:wght@400;700&family=Roboto:wght@400;700&family=Rubik:wght@400;700;900&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,30 +12,42 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 }
 body {
     background-color: #fcfbfb;
+    font-family: 'Mooli', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: rgba(20,30,13,0.7);
+    background-color: rgba(20, 66, 102, 0.7);
 }
 nav a {
     color: #f1f1f1;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
     color: #ababab;
 }
 .home-title {
-    color: #f1f1f1;
+    color: #144266;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: #f1f1f1;
+    color: #78c5d7;
 }
 .book, .join {
-    background-color: #333;
-    color:#f1f1f1;
+    background-color: #fce172;
+    color:#333;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #666;
@@ -44,16 +58,24 @@ h4 {
 }
 .msg {
     background-color: #333;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #f1f1f1;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 2em;
 }
 .msg p {
     color: #f1f1f1;
+    font-size: 0.8em;
+    padding-bottom:15px;
 }
 footer {
     background-color: #fcfbfb;
     color: #333;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #333;
@@ -71,6 +93,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-box img {
     width: 100%;
@@ -79,4 +102,22 @@ footer a:hover {
 }
 .logo {
     width: 80px;
+}
+.mountains {
+    margin: 100px 0;
+}
+#logo-link {
+    padding-top: 5px;
+}
+footer .soial img {
+    padding-top: 15px;
+}
+.rivers-card,.camping-card,.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 5px solid #333333;
+}
+main section img {
+    box-sizing: border-box;
 }

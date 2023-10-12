@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.bottom {
+    background-color: #737373;
+    display: flex;
+    margin-top: 0px;
+    padding: 4vh;
+}
+
+.bottom img {
+    display: inline-flex;
+    border-radius: 50%;
+    border: 5px solid #444444;
+    max-width: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
