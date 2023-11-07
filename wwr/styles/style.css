@@ -263,6 +263,19 @@ main section img {
     color: rgb(100,100,100);
     padding: 10px;
 }
+.bookings-footer {
+    margin-top: 25px;
+}
+footer .left-footer {
+    text-align: center;
+    align-items: center;
+}
+footer .left-footer a {
+    margin-left: 10px;
+}
+footer .left-footer .social {
+    margin-top: 50px;
+}
 /* Media Queries */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
