@@ -1,3 +1,10 @@
+/**
+ * FILEPATH: /c:/Users/Matthew/Documents/VS Code/wdd130/wwr/styles/style.css
+ * 
+ * This file contains the CSS styles for a website that offers outdoor activities such as camping, rafting, and hiking. 
+ * It imports fonts from Google Fonts and sets styles for the header, navigation, hero section, cards, and footer. 
+ * It also includes media queries for responsive design.
+ */
 @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Quicksand:wght@400;700&family=Roboto:wght@400;700&family=Rubik:wght@400;700;900&display=swap');
 
 #content {
